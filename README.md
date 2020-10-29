@@ -1,10 +1,21 @@
-#42 Scripts
+# 42 Scripts
 
 A collection of scripts I personally use to install (or re-install when I have a clean system) and others which will probably be added over time.
 
-##Version History
+Note:VirtualBox needs to be installed through the "Managed Software Center", only after that is it possible to launch `minikube start --vm-driver=virtualbox --cpus 3 --memory=3000mb` or such commands.
 
-####v201029
+Versions are named according to: vYYMMDD-V, where:
+* YY are the last 2 digits of the year.
+* MM are 2 digits representing the month.
+* DD are 2 digits representing the day.
+* V is the version of that day (in case there are more versions uploaded that same day).
+
+## Version History
+
+#### v201029-1
+* Edited README.md.
+
+#### v201029
 * Added `x_brew_install` to install brew.
 * Added `x_minikube_install` to install minikube.
 * Added `x_minikube_setup` to setup the soft link such that minikube VM runs on goinfre directory rather than personal (42) partion.
