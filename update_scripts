@@ -20,5 +20,5 @@ read -n1 -p "${green}Do you want to update ${cyan}scripts${green}?${green_d} Thi
 		git fetch --all
 		git reset --hard origin/master
 		rm install
-		echo -e "${green_b}Finished.${green} You ${magenta}might${green} have to ${magenta}delete the folder${reset}."
+		echo -e "${green_b}Finished.${reset} Scripts are up to date."
 	fi

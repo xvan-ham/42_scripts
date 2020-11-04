@@ -1,13 +1,19 @@
 #!/bin/bash
 
 #  Colors
-magenta=$'\e[0;1;95;40m'
+green_b=$'\e[0;30;102m'
 reset=$'\e[0m'
 
-#mkdir -p ~/scripts
-#mv x_* ~/scripts/
-#mv .git ~/scripts/
-#mv README.md ~/scripts/
-#mv update_scripts ~/scripts/
-#rm install
-echo -e "Finished. You ${magenta}might${reset} have to ${magenta}delete the folder${reset}."
+
+mkdir -p ~/scripts
+mv x_* ~/scripts/
+mv .git ~/scripts/
+mv .scripts ~/scripts/
+mv .zshrc ~/scripts/
+mv README.md ~/scripts/
+mv update_scripts ~/scripts/
+rm install
+echo -e "Moved files over, attempting to delete 42_scripts folder in case it is empty."
+cd ..
+rmdir 42_scripts
+echo -e "${green_b}Finished.${reset}".

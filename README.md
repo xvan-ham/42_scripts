@@ -23,6 +23,10 @@ Versions are named according to: vYYMMDD-V, where:
 
 ## Version History
 
+#### v201104-2
+* Fixed install scripts, had lines commented out.
+* Changed final return string of the update script.
+
 #### v201104-1
 * Added execute permissions to: *x_all*, *x_minikube_install* and *x_zsh_profile_cp*.
 * Added *install* file and *update* file with execute permissions.
