@@ -2,6 +2,17 @@
 
 A collection of scripts I personally use to install (or re-install when I have a clean system) and others which will probably be added over time.
 
+To install into the right directory (only needed first time) execute:
+```sh
+bash install
+```
+
+To update scripts (should there be new changes):
+```sh
+bash update_scripts
+```
+Note that this will overwrite any difference within the files with the remote repo.
+
 Note:VirtualBox needs to be installed through the "Managed Software Center", only after that is it possible to launch `minikube start --vm-driver=virtualbox --cpus 3 --memory=3000mb` or such commands.
 
 Versions are named according to: vYYMMDD-V, where:
@@ -11,6 +22,10 @@ Versions are named according to: vYYMMDD-V, where:
 * V is the version of that day (in case there are more versions uploaded that same day).
 
 ## Version History
+
+#### v201104-1
+* Added execute permissions to: *x_all*, *x_minikube_install* and *x_zsh_profile_cp*.
+* Added *install* file and *update* file with execute permissions.
 
 #### v201029-1
 * Edited README.md.
