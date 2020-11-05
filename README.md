@@ -23,6 +23,11 @@ Versions are named according to: vYYMMDD-V, where:
 
 ## Version History
 
+#### v201105-1
+* Changed name of *x_time* to *x_spinner1*.
+* Added *x_spinner2* (O's spinner).
+* Added *x_spinner3* (ping pong).
+
 #### v201104-3
 * Added *x_time*, which will be expanded upon later. Counts down on the same line.
 

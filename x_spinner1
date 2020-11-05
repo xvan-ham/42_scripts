@@ -25,7 +25,7 @@ function cycle() {
 
 		if [ $t -eq 2 ]
 			then
-			echo -ne "=="
+			echo -ne " -"
 		fi
 
 		if [ $t -eq 3 ]
@@ -51,4 +51,4 @@ function cycle() {
 
 	done
 }
-cycle "20" "3"
+cycle "10" "6"
