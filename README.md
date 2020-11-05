@@ -23,6 +23,10 @@ Versions are named according to: vYYMMDD-V, where:
 
 ## Version History
 
+#### v201105-2
+* Added aliases to zsh profile for all x scritps, install and for git commands: "gc" now evaluates to "git commit -m " and "gp" to "git push origin master".
+* Added header to scripts missing said header.
+
 #### v201105-1
 * Changed name of *x_time* to *x_spinner1*.
 * Added *x_spinner2* (O's spinner).
