@@ -23,6 +23,15 @@ Versions are named according to: vYYMMDD-V, where:
 
 ## Version History
 
+### v201106-1
+* Added 42toolbox folder from alexandregv's git repository - credit to aguiot (maker of these scripts).
+* Added alias for *free_space.sh*: `free_space' to *.zshrc*.
+* Added alias for *init_docker.sh*: `init\_docker' to *.zshrc*.
+* Added *x_ncdu_install* script.
+* Modified *x_all* to ask to install *ncdu*.
+* Added alias for *x_ncdu_install*.
+* Modified *install* to move *42toolbox* to *scripts* folder.
+
 #### v201105-3
 * Added prompt customization.
 * Edited *x_spinner3*.

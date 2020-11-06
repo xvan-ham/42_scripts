@@ -12,6 +12,7 @@ mv .scripts ~/scripts/
 mv .zshrc ~/scripts/
 mv README.md ~/scripts/
 mv update_scripts ~/scripts/
+mv 42toolbox ~/scripts/
 rm install
 echo -e "Moved files over, attempting to delete 42_scripts folder in case it is empty."
 cd ..

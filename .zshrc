@@ -11,10 +11,16 @@ alias update_scripts="bash update_scripts"
 alias x_spinner1="bash x_spinner1"
 alias x_spinner2="bash x_spinner2"
 alias x_spinner3="bash x_spinner3"
+alias x_ncdu_install="bash x_ncdu_install"
 
 # git aliases
 alias gc="git commit -m "
 alias gp="git push origin master"
 
+# 42toolbox aliases
+alias free_space="bash ~/scripts/42toolbox/free_space.sh"
+alias init_docker="bash ˜/scripts/42toolbox/init_docker.sh"
+
+# prompt modification
 RPROMPT='%F{50}%b%*%f'
 PROMPT='%F{50}%b%1~ %F{124}%b» %f'

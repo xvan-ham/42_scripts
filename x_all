@@ -48,6 +48,7 @@ if [ "$o1" = "\$first_time_launch=1" ]
 		install "zsh (shell) profile" "x_zsh_profile_cp" "(copies .zshrc file to home directory, adding scripts folder to Path)"
 fi
 install "brew" "x_brew_install" " (Warning, saying yes will delete current install and reinstall from scratch)"
+install "ncdu" "x_ncdu_install" "(Used to see which folders/files take up the most memory)"
 install "minikube (installation)" "x_minikube_install" ""
 install "minikube goinfre" "x_minikube_setup" ""
 
