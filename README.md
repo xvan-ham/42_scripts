@@ -23,6 +23,16 @@ Versions are named according to: vYYMMDD-V, where:
 
 ## Version History
 
+### v201110-1
+* Added ability to switch custom prompt on or off (added variable *custom_prompt* to *.zshrc*. Can be changed manually or with script.
+* Added *x_prompt_toggle_zshrc* script to toggle *custom_prompt* and update the home directory *.zshrc* file.
+* Added alias for *x_prompt_toggle_zshrc*.
+* Added alias for *ls* (`ls -G`) so that it includes colors by default.
+* Added alias for `kubectl`.
+* Added alias for `minikube`.
+* Added alias for `minikube dashboard`.
+
+
 ### v201106-1
 * Added 42toolbox folder from alexandregv's git repository - credit to aguiot (maker of these scripts).
 * Added alias for *free_space.sh*: `free_space' to *.zshrc*.
@@ -31,6 +41,7 @@ Versions are named according to: vYYMMDD-V, where:
 * Modified *x_all* to ask to install *ncdu*.
 * Added alias for *x_ncdu_install*.
 * Modified *install* to move *42toolbox* to *scripts* folder.
+* Changed right prompt to include two last folders of current directory.
 
 #### v201105-3
 * Added prompt customization.

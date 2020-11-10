@@ -12,8 +12,10 @@
 #                                                                              #
 # **************************************************************************** #
 
-#Copy the .zshrc file from this directory to $HOME (AKA "~")
-#This profile adds "scripts" folder to $PATH.
+# Copy the .zshrc file from this directory to $HOME (AKA "~")
+# This profile adds "scripts" folder to $PATH.
+# As of 10/11/2020 v201110-1 you can use x_prompt_toggle_zshrc (to toggle the
+# use of a custom prompt), which automatically calls this script as well.
 
 #  Colors
 green=$'\e[0;92;40m'
